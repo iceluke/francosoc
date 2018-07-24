@@ -1,0 +1,7 @@
+.div {
+    transition-property: width;
+}
+
+.div:hover {
+    width: 300px;
+}
