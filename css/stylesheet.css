@@ -1,0 +1,45 @@
+.full_bg {
+  /* border:2em;
+  padding:2em; */
+  height: 100vh;
+  background-size: cover;
+}
+
+.white_txt {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  color: white;
+  font-size: 30px;
+    
+}
+
+.black_txt {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  color: red;
+  font-size: 30px;
+    
+}
+
+#About {
+  background-image: url('../media/pont_alex_3v2.jpg');
+}
+
+#Events {
+  background-image: url('../media/events1.jpg');
+}
+
+#Classes {
+  background-image: url('../media/classes3.jpg!d');
+}
+
+#Le_Journal {
+    background-image: url('https://media.giphy.com/media/l378h7yBiPDAVHIOY/giphy.gif');
+    filter:brightness(110%);
+}
+
+
+#Newsletter {
+    background-color:lavender;
+}
+
