@@ -6,6 +6,13 @@
 		background-size: cover;
 }
 
+.full_bg_news {
+  /* border:2em;
+  padding:2em; */
+		height: 100vh;
+		background-size: cover;
+}
+
 .white_txt {
   margin-left: 5vw;
   margin-right: 5vw;
@@ -21,7 +28,7 @@
 .black_txt {
   margin-left: 5vw;
   margin-right: 5vw;
-  color: red;
+  color: black;
   font-size: 30px;
     
 }
@@ -35,6 +42,24 @@
     border-collapse: separate;
     border-spacing: 2px;
     border-color: black;
+}
+
+.nav-link:hover {
+ 	border-bottom: 2px solid royalblue;
+/* 	border-top: 4px solid royalblue;*/
+	
+}
+.fa {
+	padding: 10px;
+ font-size: 30px;
+ width: 30px;
+}
+.fa-facebook {
+	 color: darkgrey;
+}
+
+.fa-instagram {
+	  color: darkgrey;
 }
 
 #About {
@@ -51,11 +76,11 @@
 
 #Le_Journal {
     background-image: url('https://media.giphy.com/media/l378h7yBiPDAVHIOY/giphy.gif');
-    filter:brightness(110%);
+/*    filter:brightness(110%);*/
 }
 
 #Newsletter {
-    background-color:lavender;
+/*    background-color:lavender;*/
 }
 
 
