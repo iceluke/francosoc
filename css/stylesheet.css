@@ -68,16 +68,25 @@
 	box-shadow: 20px 10px 10px aqua;
 }
 
-.container {
-	padding: 5px;
-	background-size: cover;
+/*.container {*/
+/*	padding: 5px;*/
+/*	background-size: cover;*/
 	
 }
-.card {
+.card_spons {
 	padding: 2px;
 	background-color: blue;
 	text-align: center;
 	background-size: cover;
+}
+
+.container1 {
+	
+	align-items: right;
+}
+.card1 {
+	align-items: right;
+	box-shadow: 20px 20px 20px grey;
 }
 
 #About {
@@ -94,7 +103,6 @@
 
 #Le_Journal {
     background-image: url('https://media.giphy.com/media/l378h7yBiPDAVHIOY/giphy.gif');
-/*    filter:brightness(110%);*/
 }
 
 #Newsletter {
