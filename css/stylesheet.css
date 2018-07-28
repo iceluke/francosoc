@@ -1,36 +1,35 @@
 .full_bg {
   /* border:2em;
   padding:2em; */
-		height: 100vh;
-		background-color: rgba(0,0,0,.5);
-		background-size: cover;
+	height: 100vh;
+	background-color: rgba(0,0,0,.5);
+	background-size: cover;
 }
 
 .full_bg_news {
   /* border:2em;
   padding:2em; */
-		height: 100vh;
-		background-size: cover;
+	height: 100vh;
+	background-size: cover;
 }
 
 .white_txt {
-  margin-left: 5vw;
-  margin-right: 5vw;
-  color: white;
-  font-size: 30px;
+	margin-left: 5vw;
+	margin-right: 5vw;
+  	color: white;
+  	font-size: 30px;
 }
 
 .overlay {
-		background-color: rgba(0,0,0,.3);
-		height: inherit;
+	background-color: rgba(0,0,0,.3);
+	height: inherit;
 }
 
 .black_txt {
-  margin-left: 5vw;
-  margin-right: 5vw;
-  color: black;
-  font-size: 30px;
-    
+	margin-left: 5vw;
+	margin-right: 5vw;
+	color: black;
+	font-size: 30px;
 }
 
 .tbody {
@@ -51,27 +50,46 @@
 }
 .fa {
 	padding: 10px;
- font-size: 30px;
- width: 30px;
+	font-size: 30px;
+	width: 30px;
 }
 .fa-facebook {
-	 color: darkgrey;
+	color: darkgrey;
 }
 
 .fa-instagram {
-	  color: darkgrey;
+	color: darkgrey;
+}
+
+.card-bg-primary {
+	width: 400px;
+	height: 400px;
+	color: aqua;
+	box-shadow: 20px 10px 10px aqua;
+}
+
+.container {
+	padding: 5px;
+	background-size: cover;
+	
+}
+.card {
+	padding: 2px;
+	background-color: blue;
+	text-align: center;
+	background-size: cover;
 }
 
 #About {
-			background-image: url('../media/pont_alex_3v2.jpg');
+	background-image: url('../media/pont_alex_3v2.jpg');
 }
 
 #Events {
-  background-image: url('../media/events1.jpg');
+  	background-image: url('../media/events1.jpg');
 }
 
 #Classes {
-  background-image: url('../media/classes3.jpg!d');
+  	background-image: url('../media/classes3.jpg!d');
 }
 
 #Le_Journal {
@@ -80,12 +98,12 @@
 }
 
 #Newsletter {
-/*    background-color:lavender;*/
+/*  background-color:lavender;*/
 }
 
 
 #Sign-up {
-/*    background-image: url('../media/classes2.jpeg') */
-    background-color: whitesmoke;
+/*  background-image: url('../media/classes2.jpeg') */
+    background-color: white;
 }
 
