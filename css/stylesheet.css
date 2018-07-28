@@ -21,6 +21,17 @@
     
 }
 
+.tbody {
+    text-align: center;
+}
+
+.table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: black;
+}
+
 #About {
   background-image: url('../media/pont_alex_3v2.jpg');
 }
@@ -38,8 +49,13 @@
     filter:brightness(110%);
 }
 
-
 #Newsletter {
     background-color:lavender;
+}
+
+
+#Sign-up {
+/*    background-image: url('../media/classes2.jpeg') */
+    background-color: whitesmoke;
 }
 
