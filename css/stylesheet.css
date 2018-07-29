@@ -1,48 +1,4 @@
-.full_bg {
-  /* border:2em;
-  padding:2em; */
-	height: 100vh;
-	background-color: rgba(0,0,0,.5);
-	background-size: cover;
-}
-
-.full_bg_news {
-  /* border:2em;
-  padding:2em; */
-	height: 100vh;
-	background-size: cover;
-}
-
-.white_txt {
-	margin-left: 5vw;
-	margin-right: 5vw;
-  	color: white;
-  	font-size: 30px;
-}
-
-.overlay {
-	background-color: rgba(0,0,0,.3);
-	height: inherit;
-}
-
-.black_txt {
-	margin-left: 5vw;
-	margin-right: 5vw;
-	color: black;
-	font-size: 30px;
-}
-
-.tbody {
-    text-align: center;
-}
-
-.table {
-    display: table;
-    border-collapse: separate;
-    border-spacing: 2px;
-    border-color: black;
-}
-
+/*Navigation bar styles*/
 .nav-link:hover {
  	border-bottom: 2px solid royalblue;
 /* 	border-top: 4px solid royalblue;*/
@@ -61,6 +17,49 @@
 	color: darkgrey;
 }
 
+/*General styles for whole website*/
+.full_bg {
+  /* border:2em;
+  padding:2em; */
+	height: 100vh;
+	background-color: rgba(0,0,0,.5);
+	background-size: cover;
+}
+
+.full_bg_news {
+	/* border:2em;
+	padding:2em; */
+	height: 50vh;
+	background-size: cover;
+	background-color: white;
+}
+
+.full_bg_spons: {
+	height: 80vh;
+	background-size: cover;
+	background-color: white;
+}
+
+.white_txt {
+	margin-left: 5vw;
+	margin-right: 5vw;
+  	color: white;
+  	font-size: 30px;
+}
+
+.black_txt {
+	margin-left: 5vw;
+	margin-right: 5vw;
+	color: black;
+	font-size: 35px;
+	margin-top: 5vh;
+}
+
+.overlay {
+	background-color: rgba(0,0,0,.3);
+	height: inherit;
+}
+
 .card-bg-primary {
 	width: 400px;
 	height: 400px;
@@ -68,26 +67,7 @@
 	box-shadow: 20px 10px 10px aqua;
 }
 
-/*.container {*/
-/*	padding: 5px;*/
-/*	background-size: cover;*/
-	
-}
-.card_spons {
-	padding: 2px;
-	background-color: blue;
-	text-align: center;
-	background-size: cover;
-}
-
-.container1 {
-	
-	align-items: right;
-}
-.card1 {
-	align-items: right;
-	box-shadow: 20px 20px 20px grey;
-}
+/*Styles by section of content*/
 
 #About {
 	background-image: url('../media/pont_alex_3v2.jpg');
@@ -97,21 +77,71 @@
   	background-image: url('../media/events1.jpg');
 }
 
+	.podium {
+		width: 60px;
+		height: 60px;
+	}
+
 #Classes {
   	background-image: url('../media/classes3.jpg!d');
 }
+
+	.tbody {
+		text-align: center;
+	}
+
+	.table {
+		display: table;
+		border-collapse: separate;
+		border-spacing: 2px;
+		border-color: black;
+	}
+
+	#Sign-up {
+	/*  background-image: url('../media/classes2.jpeg') */
+		background-color: white;
+	}
+
 
 #Le_Journal {
     background-image: url('https://media.giphy.com/media/l378h7yBiPDAVHIOY/giphy.gif');
 }
 
+/*#Sponsors*/
+
+
 #Newsletter {
 /*  background-color:lavender;*/
 }
 
+/*Committee Page Styles*/
 
-#Sign-up {
-/*  background-image: url('../media/classes2.jpeg') */
-    background-color: white;
+.container1 {
+	
+	align-items: right;
+}
+.card_right {
+	margin-left: 35px;
+/*	margin-top: 5px;*/
+	margin-right: 20px;
+/*	padding: 5px;*/
+	align-items: right;
+/*	box-shadow: 20px 20px 20px grey;*/
 }
 
+.card_left {
+	margin-left: 20px;
+	margin-right: 20px;
+	align-items: right;
+}
+
+.image_right {
+	margin-top: 20px;
+	border: 5px solid blue;
+}
+
+.image_left {
+	margin-left: 35px;
+	border: 5px solid blue;
+	
+}
