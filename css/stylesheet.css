@@ -24,6 +24,7 @@
 	height: 100vh;
 	background-color: rgba(0,0,0,.5);
 	background-size: cover;
+	width: device-width;
 }
 
 .full_bg_news {
@@ -91,6 +92,7 @@
 		width: 60px;
 		height: 60px;
 	}
+
 #Classes {
   	background-image: url('../media/classes3.jpg!d');
 }
@@ -125,10 +127,16 @@
 
 /*Committee Page Styles*/
 
+/*
 .container1 {
-	
 	align-items: right;
 }
+*/
+
+.container_news {
+	background-color: blue;
+}
+
 .card_right {
 	margin-left: 35px;
 /*	margin-top: 5px;*/
