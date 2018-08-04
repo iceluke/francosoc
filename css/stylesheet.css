@@ -46,14 +46,17 @@
 	margin-right: 5vw;
   	color: white;
 /*  	font-size: 25px;*/
-	font-size: 2vw;
+	font-size: 3vw;
+	font-size: 3vh;
 }
 
 .black_txt {
 	margin-left: 5vw;
 	margin-right: 5vw;
 	color: black;
-	font-size: 35px;
+/*	font-size: 35px;*/
+	font-size: 3vw;
+	font-size: 3vh;
 	margin-top: 5vh;
 }
 
@@ -64,6 +67,7 @@
 .overlay {
 	background-color: rgba(0,0,0,.3);
 	height: inherit;
+	background-size: cover;
 }
 
 .card-bg-primary {
