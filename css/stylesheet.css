@@ -80,12 +80,14 @@
 /*Styles by section of content*/
 
 #About {
-	background-size: cover;
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-image: url('../media/pont_alex_3v2.jpg');
 }
 
 #Events {
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
   	background-image: url('../media/events1.jpg');
 }
 
@@ -105,6 +107,8 @@
 	}
 
 #Classes {
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
   	background-image: url('../media/classes3.jpg!d');
 }
 
@@ -126,7 +130,8 @@
 
 
 #Le_Journal {
-	background-size: cover;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
     background-image: url('https://media.giphy.com/media/l378h7yBiPDAVHIOY/giphy.gif');
 }
 
