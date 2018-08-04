@@ -50,6 +50,15 @@
 	font-size: 3vh;
 }
 
+.white_txt_events {
+	margin-left: 5vw;
+	margin-right: 5vw;
+  	color: white;
+/*  	font-size: 25px;*/
+	font-size: 2vw;
+	font-size: 2vh;
+}
+
 .black_txt {
 	margin-left: 5vw;
 	margin-right: 5vw;
@@ -77,11 +86,15 @@
 	box-shadow: 20px 10px 10px aqua;
 }
 
+.section-widget-title {
+	font-size: 3vw;
+	font-size: 3vh;
+}
 /*Styles by section of content*/
 
 #About {
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
+/*	background-size: 100% 100%;*/
+/*	background-repeat: no-repeat;*/
 	background-image: url('../media/pont_alex_3v2.jpg');
 }
 
