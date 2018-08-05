@@ -1,8 +1,7 @@
 /*Navigation bar styles*/
+
 .nav-link:hover {
  	border-bottom: 2px solid royalblue;
-/* 	border-top: 4px solid royalblue;*/
-	
 }
 .fa {
 	padding: 10px;
@@ -20,17 +19,11 @@
 /*General styles for whole website*/
 
 .full_bg {
-  /* border:2em;
-  padding:2em; */
 	height: 100vh;
 	background-color: rgba(0,0,0,.5);
-/*	background-size: cover;*/
-/*	width: device-width;*/
 }
 
 .full_bg_news {
-	/* border:2em;
-	padding:2em; */
 	height: 50vh;
 	background-size: cover;
 	background-color: white;
@@ -46,7 +39,6 @@
 	margin-left: 5vw;
 	margin-right: 5vw;
   	color: white;
-/*  	font-size: 25px;*/
 	font-size: 3vw;
 	font-size: 3vh;
 }
@@ -55,7 +47,6 @@
 	margin-left: 5vw;
 	margin-right: 5vw;
 	color: black;
-/*	font-size: 35px;*/
 	font-size: 3vw;
 	font-size: 3vh;
 	margin-top: 10px;

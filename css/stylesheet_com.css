@@ -1,9 +1,11 @@
 .container_pres {
 	text-align: center;
 	padding-top: 30px;
-	padding-bottom: 20px;
-	width: 80vw;
-	height: 80vr;
+/*	padding-bottom: 20px;*/
+	width: 75vw;
+	height: 75vr;
+	margin: auto;
+	width: 90%;
 }
 
 .container {
@@ -13,6 +15,7 @@
 	width: 70vw;
 	height: 70vr;
 }
+
 /*New Design Boostrap*/
 
 .our-team{
