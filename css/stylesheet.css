@@ -18,13 +18,14 @@
 }
 
 /*General styles for whole website*/
+
 .full_bg {
   /* border:2em;
   padding:2em; */
 	height: 100vh;
 	background-color: rgba(0,0,0,.5);
-	background-size: cover;
-	width: device-width;
+/*	background-size: cover;*/
+/*	width: device-width;*/
 }
 
 .full_bg_news {
@@ -50,15 +51,6 @@
 	font-size: 3vh;
 }
 
-.white_txt_events {
-	margin-left: 5vw;
-	margin-right: 5vw;
-  	color: white;
-/*  	font-size: 25px;*/
-	font-size: 2vw;
-	font-size: 2vh;
-}
-
 .black_txt {
 	margin-left: 5vw;
 	margin-right: 5vw;
@@ -66,7 +58,7 @@
 /*	font-size: 35px;*/
 	font-size: 3vw;
 	font-size: 3vh;
-	margin-top: 5vh;
+	margin-top: 10px;
 }
 
 .red_txt {
@@ -90,11 +82,12 @@
 	font-size: 3vw;
 	font-size: 3vh;
 }
+
 /*Styles by section of content*/
 
 #About {
-/*	background-size: 100% 100%;*/
-/*	background-repeat: no-repeat;*/
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
 	background-image: url('../media/pont_alex_3v2.jpg');
 }
 
@@ -119,11 +112,20 @@
 		height: 60px;
 	}
 
+	.white_txt_events {
+		margin-left: 5vw;
+		margin-right: 5vw;
+		color: white;
+	/*  	font-size: 25px;*/
+		font-size: 2vw;
+		font-size: 2vh;
+	}
+
 #Classes {
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
   	background-image: url('../media/classes3.jpg!d');
-}
+	}
 
 	.tbody {
 		text-align: center;
@@ -152,66 +154,9 @@
 
 
 #Newsletter {
-/*  background-color:lavender;*/
-}
-
-/*Committee Page Styles*/
-
 /*
-.container1 {
-	align-items: right;
-}
+  	background-color:white;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
 */
-
-.container_news {
-	background-color: blue;
 }
-
-.card_right {
-	margin-left: 35px;
-/*	margin-top: 5px;*/
-	margin-right: 20px;
-/*	padding: 5px;*/
-	align-items: right;
-/*	box-shadow: 20px 20px 20px grey;*/
-}
-
-.card_left {
-	margin-left: 20px;
-	margin-right: 35px;
-	align-items: left;
-}
-
-.image_right {
-	margin-top: 20px;
-	margin-right: 20px;
-	margin-left: 20px;
-	border: 2px solid blue;
-/*	width: 300px;*/
-/*	height: 300px;*/
-}
-
-.image_left {
-	margin-top: 20px;
-	margin-left: 20px;
-	margin-right: 20px;
-	border: 2px solid blue;
-}
-
-.profile-image_com:hover .profile_hover_com {
-	position: absolute;
-	width: 300px;
-	height: 300px;
-	background: transparent url('/media/CHAZAL_Claire.jpg') no-repeat center;
-	cursor: pointer;
-}
-
-.profile-image_treas:hover .profile_hover_treas {
-	position: absolute;
-	width: 300px;
-	height: 300px;
-	background: transparent url('/media/bernard.jpeg') no-repeat left;
-	cursor: pointer;
-}
-
-
