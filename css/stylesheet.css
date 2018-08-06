@@ -50,6 +50,7 @@
 	font-size: 3vw;
 	font-size: 3vh;
 	margin-top: 10px;
+	align-content: center;
 }
 
 .red_txt {
@@ -86,6 +87,8 @@
 	title {
 		font-size: 3em;
 	}
+	
+	
 }
 
 
@@ -159,10 +162,10 @@
 /*#Sponsors*/
 
 
-#Newsletter {
-/*
-  	background-color:white;
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-*/
+/*#Newsletter*/
+
+.div.mc-field-group label {
+	text-align: center;
+	padding-bottom: 4px;
+	font-size: 4px;
 }

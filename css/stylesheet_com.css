@@ -2,10 +2,10 @@
 	text-align: center;
 	padding-top: 30px;
 /*	padding-bottom: 20px;*/
-	width: 75vw;
-	height: 75vr;
+	width: 70vw;
+	height: 70vr;
 	margin: auto;
-	width: 90%;
+	width: 80%;
 }
 
 .container {
@@ -56,18 +56,20 @@
     height: auto;
 }
 .our-team .read-more{
-/*    width: 100px;*/
-    padding: 15px 15px 15px 15px;
-    font-size: 25px;
+    text-align: center;
+	font-size-adjust: auto;
+	font-size: 2vr;
+	font-size: 2vh;
+/*	padding: 20px 20px 20px 20px;*/
+	margin: 50px 50px 50px 50px;
     color: #fff;
     letter-spacing: 0.35px;
     text-align: center;
     text-transform: uppercase;
     position: absolute;
-    bottom: 60px;
+    bottom: 10px;
     right: 0;
     opacity: 0;
-/*    z-index: 1;*/
     transform: translate3d(20px, 20px, 0px);
     transition: all 0.35s ease 0s;
 }
