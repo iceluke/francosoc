@@ -77,12 +77,17 @@
 @media only screen and (max-width: 500px) {
     black_txt {
         font-size: 1vh;
-		font-size: 1vh;
+		font-size: 1vw;
     }
 	
 	white_txt {
 		font-size: 1vh;
-		font-size: 1vh;
+		font-size: 1vw;
+	}
+	
+	title {
+		font-size: 2vh;
+		font-size: 2vw;
 	}
 }
 
