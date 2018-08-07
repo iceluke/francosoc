@@ -97,13 +97,13 @@
 #About {
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	background-image: url('../media/pont_alex_3v2.jpg');
+	background-image: url('../media/cover/pont_alex_3v2.jpg');
 }
 
 #Events {
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-  	background-image: url('../media/events1.jpg');
+  	background-image: url('../media/cover/events1.jpg');
 }
 
 	.podium {
@@ -133,7 +133,7 @@
 #Classes {
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-  	background-image: url('../media/classes3.jpg!d');
+  	background-image: url('../media/cover/classes.jpg!d');
 	}
 
 	.tbody {
@@ -147,8 +147,7 @@
 		border-color: black;
 	}
 
-	#Sign-up {
-	/*  background-image: url('../media/classes2.jpeg') */
+#Sign-up {
 		background-color: white;
 	}
 
