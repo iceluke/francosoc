@@ -1,0 +1,42 @@
+.our-team{
+    background: white;
+    text-align: center;
+}
+.our-team .pic img{
+    width: 80%;
+	height: 450px;
+	width: 450px;
+	padding: 25px;
+}
+
+.greetings {
+	font-size: 50px;
+	font-weight: 500;
+	color: darkblue;
+	margin: 20px 0 20px 0;
+	text-align: center;
+}
+
+.our-team .team-content{
+    padding: 20px 0;
+}
+.our-team .title{
+    font-size: 30px;
+    font-weight: 500;
+    color: #3b3b3b;
+    text-transform: capitalize;
+    margin: 0 0 8px 0;
+}
+.our-team .post{
+    font-size: 20px;
+    font-weight: 500;
+    color: #6e6e70;
+    text-transform: capitalize;
+}
+@media only screen and (max-width: 2000px){
+    .our-team{ margin-bottom: 30px; }
+	
+	.our-team .pic img{
+		width: 90%;
+	}
+}
