@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="shortcut icon" type="image/svg+xml" href="/media/logo_Franco.jpg"/>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<!-- Bootstrap CSS  -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+
+		<!-- Custom styles for this template -->
+		<link href="css/stylesheet.css" rel="stylesheet">
+
+		<link href="css/stylesheet_events.css" rel="stylesheet">
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+	</head>
+
+	<body>
+
+		<title>Events</title>
+		<!-- Navigation -->
+		<!-- Navbar to the right -->
+		<nav class="navbar navbar-light sticky-top navbar-expand-md bg-light">
+			<div class="container-fluid">
+				<!-- Titre -->
+				<a class="navbar-brand" href="#"><img src="../media/logo_Franco.jpg" width="50px" height="50px" class="d-inline-block align-center">UCL Francophone Society</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarFrancosoc">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarFrancosoc">
+					<ul class="nav navbar-nav ml-auto">
+						<a class="nav-link" href='/index.html'>About us</a>
+						<a class="nav-link" href="/index.html#Events">Events</a>
+						<a class="nav-link" href="/index.html#Classes">Classes</a>
+						<li><a class="nav-link" href="/committee.html">Committee</a></li>
+						<a class="nav-link" href="/index.html#Le_Journal">Le Journal</a>
+						<!--                  <a class="nav-link" href="/index.html#Sponsors">Sponsors</a>-->
+						<a class="nav-link" href="/index_1.2.html#Newsletter">Newsletter</a>
+						<a class="fa fa-facebook" href="http://www.facebook.com/uclfrancophonesociety" target="_blank" ></a>
+						<a class="fa fa-instagram" href="https://www.instagram.com/uclufrancosoc/" target="_blank"></a>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div class="container col-md-6 col-sm-6 col-xl-6">
+			<p class="greetings">Events 2018/2019</p>
+		</div>
+
+		<div>
+
+			<!-- JFC-->
+			<div class="w3-display-container mySlides">
+				<p class="description">"Will AI kill democracy" by Jean François Copé at King's College London.</p>
+				<button class="btn w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+				<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+				<img class="rectangle image_size" src="media/events/JFC-Conference-AI.jpg">
+			</div>
+			
+			<!-- Football-->
+			<div class="w3-display-container mySlides">
+				<p class="description">French team in the first UCL International Football Tournament with 11 other cultural societies</p>
+				<button class="btn w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+				<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+				<img class="rectangle image_size" src="
+				media/events/Foot_tournament.jpg" style="align-content: center; background-repeat: ">
+			</div>
+
+			<!-- Brexit-->
+			<div class="w3-display-container mySlides">
+				<p class="description">"Eu and British citizens: What next?" by Massimo Ungaro (Italian MP in the UK) and Alessandro Spano at UCL with the Italian Society.</p>
+				<button class="btn w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+				<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+				<img class="rectangle image_size" src="media/events/Brexit_conf.JPG">
+			</div>
+
+			<!-- European-->
+
+			<!-- Armistice-->
+
+			<!-- Ball-->
+			
+			<!-- Cheese and Wine-->
+			
+			
+			<!-- Huis Clos Sartre-->
+			<div class="w3-display-container mySlides">
+				<p class="description">"Huis Clos" by Jean Paul Sartre. Directed by Sofia Bouguerra, Charlotte Gross and Jerome Sche.</p>
+				<button class="btn w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+				<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+				<img class="rectangle image_size" src="media/events/HuisClosSartre.JPG">
+			</div>
+
+		</div>
+
+		<script>
+			var slideIndex = 1;
+			showDivs(slideIndex);
+
+			function plusDivs(n) {
+				showDivs(slideIndex += n);
+			}
+
+			function showDivs(n) {
+				var i;
+				var x = document.getElementsByClassName("mySlides");
+				if (n > x.length) {slideIndex = 1} 
+				if (n < 1) {slideIndex = x.length} ;
+				for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none"; 
+				}
+				x[slideIndex-1].style.display = "block"; 
+			}
+			
+			
+			var frame = $("#imageFrame");
+			var img = frame.find('img');
+
+			// note: naturalSize does not work in IE8
+			var realSize = {
+				width:  img.get(0).naturalWidth,
+				height: img.get(0).naturalHeight
+			};
+
+			var bounds = {
+				width:  frame.width(),
+				height: frame.height()
+			};
+
+			var resized = fitRectIntoBounds(realSize, bounds);
+
+			img.css({
+				width:  resized.width,
+				height: resized.height,
+				top:    (bounds.height - resized.height) / 2,
+				left:   (bounds.width - resized.width) / 2
+			});
+		</script>
+
+		<!-- Footer -->
+		<footer class="py-5 bg-black">
+			<div class="container">
+				<p class="m-0 text-center text-small">Copyright &copy; UCL Francophone Society 2019</p>
+			</div>
+		</footer>
+	</body>
+</html>
