@@ -1,3 +1,8 @@
 git add media
 git commit -m media
 git push -u origin master
+
+mkdir 2018-2019
+mv media 2018-2019
+git add 2018-2019/media
+git rm media
